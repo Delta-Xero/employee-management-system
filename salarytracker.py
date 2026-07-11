@@ -59,7 +59,3 @@ class Employee:
         self._salary = new_salary
         print(f'Salary updated to ${self.salary}.')
 
-charlie_brown = Employee('Charlie Brown', 'trainee')
-print(charlie_brown)
-print(f'Base salary: ${charlie_brown.salary}')
-charlie_brown.level = 'junior'
